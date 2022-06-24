@@ -7,7 +7,7 @@ public class twoDimensionalArray {
 	
 		Integer[][] array =  {{1,2,4,4}, {3,4,6,6}, {7,8,9,8}};
 		System.out.println(array.length);
-		for(int i=0; i < 3; i++) {
+		for(int i=0; i < array.length; i++) {
 			System.out.println("Row : "+i+" Max :" +getMax(array[i]));
 		}
 	}
