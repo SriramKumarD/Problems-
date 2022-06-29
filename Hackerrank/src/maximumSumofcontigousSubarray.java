@@ -3,7 +3,7 @@ public class maximumSumofcontigousSubarray {
 
 	public static void main(String[] args) {
 
-		int [] array = {-2, -3, 4, -1, -2, 1, 5, -3};
+		int [] array = {-2, -3, 4, -1, -2, 1, 5, -3, 8};
 			
 		System.out.println("MaximumSumSubarray :"+findMaxSumSubarray(array));
 
