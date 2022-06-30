@@ -5,9 +5,9 @@ public class LargestSubarraywithZeroSum {
 
 	public static void main(String[] args) {
 
-	Integer	arr[] = {15, -2, 2, -8, 1, 7, 10, 23};
-	
-	System.out.println("LargestdSubarraywithSumZero : "+LargestdSubarraywithSumZero(arr));
+		Integer	arr[] = {15, -2, 2, -8, 1, 7, 10, 23};
+		
+		System.out.println("LargestdSubarraywithSumZero : "+LargestdSubarraywithSumZero(arr));
 
 	}
 
