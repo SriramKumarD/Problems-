@@ -7,7 +7,7 @@ public class Football {
 	
 		Integer[] teamA = {1,4,2,4};
 		
-		Integer[] teamB = {2,5};
+		Integer[] teamB = {2,3};
 		
 		int aLength = teamA.length;
 		int bLength = teamB.length;
