@@ -49,7 +49,7 @@ public class SpiralPrint {
 			if (l < n) {
 				
 				for (i=m-1;i>=k;i--) {
-					System.out.print(a[i][1-1]);
+					System.out.print(a[i][l-1]);
 				}
 			}
 			l++;

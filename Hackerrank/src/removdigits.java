@@ -57,4 +57,3 @@ class removedigits {
 		System.out.println(removeKdigits(s, 5));
 	}
 }
-// this code is contributed by gireeshgudaparthi

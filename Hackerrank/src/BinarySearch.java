@@ -9,29 +9,29 @@ public class BinarySearch {
 		/*
 		 * int left = 0; int right = arr.length -1;
 		 */
-		if (left <= right) {
+		while (left <= right) {
 			
-			int mid = (left+right)/2;
+			int mid = left + (right - left)/2;
 			
 			if(key == arr[mid]) {
 				return mid;
 			}
 			else if(key < arr[mid]) {
 				right = mid-1;
-				binarySearch(arr, key, left, right);
+				//binarySearch(arr, key, left, right);
 			}
 			else {
 				left = mid+1;
-				binarySearch(arr, key, left, right);
+				//binarySearch(arr, key, left, right);
 			}
 		}
-		return 0;
+		return -1;
 	}
 	public static void main(String[] args) 
 	{
         int arr[] = { 2, 3, 4, 10, 40 };
-        int key = 4;
-        System.out.println("Binary Search :" +binarySearch(arr,key, 0, arr.length));
+        int key = 10;
+        System.out.println("Binary Search :" +binarySearch(arr,key, 0, arr.length-1));
         
 	}
 
