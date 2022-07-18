@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-//Next Greater element 
+//Next Greater element right side
 public class NGE {
 	
 	private static void printNGE(int[] arr, int n) {
@@ -40,7 +40,7 @@ public class NGE {
 
 	public static void main(String[] args) {
 		
-		int arr[] = { 11, 13, 3, 21 };
+		int arr[] = { 22, 13, 3, 21 };
         int n = arr.length;
         printNGE(arr, n);
 
