@@ -32,7 +32,7 @@ public class BinarySearchFirstLastOccurance {
 	public static void main(String[] args) 
 	{
         int arr[] = { 2, 2, 2, 3, 4, 4, 40 };
-        int key = 4;
+        int key = 40;
         System.out.println("Binary Search :" +binarySearch(arr, key));
         
 	}
