@@ -79,6 +79,12 @@ public class LinkedList {
 			System.out.println("Deleted the node at Index:"+index+ "Value :"+n1.data);
 		}
 	}
+
+
+	public Node getHeadNode() {
+		// TODO Auto-generated method stub
+		return head;
+	}
 	
 
 }
