@@ -11,6 +11,7 @@ public class LinkedListRotation {
 		
 		Node node = new Node();
 		node = head;
+		
 		Node newHead = new Node();
 		newHead = head;
 		int count =1;

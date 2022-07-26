@@ -8,6 +8,8 @@ public class Runner {
 		LinkedListRotation rotation = new LinkedListRotation();
 		FindMidElementInLinkedList objList = new FindMidElementInLinkedList();
 		
+		SearchTheElement obj = new SearchTheElement();
+		
 		lList.insert(3);
 		lList.insert(4);
 		lList.insert(5);
@@ -15,7 +17,7 @@ public class Runner {
 		//lList.show();
 		lList.insertAtFirstPosition(9);
 		//lList.show();
-		lList.insertAtIndex(3,10);
+		lList.insertAtIndex(4,10);
 		lList.insert(11);
 		lList.insert(12);
 		//lList.deleteAt(1);
@@ -24,6 +26,21 @@ public class Runner {
 		//lList.show();
 		Node head1 = lList.getHeadNode();
 		objList.getMiddleElement(head1);
+		
+		//Search a element
+			
+		obj.pushElement(1);
+		obj.pushElement(4);
+		obj.pushElement(5);
+		obj.pushElement(2);
+		obj.pushElement(6);
+		obj.pushElement(9);
+		
+		System.out.println(obj.searchElement(obj.head, 5));
+		
+		System.out.println("Result : "+obj.findtheElementfromEndoftheList(obj.head, 6));
+
+		
 		
 	}
 

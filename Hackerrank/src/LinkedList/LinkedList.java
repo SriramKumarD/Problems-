@@ -45,7 +45,7 @@ public class LinkedList {
 	//It will add the node at given Index 
 	public void insertAtIndex(int index, int value) {
 		
-		if(index == 0) {
+		if(index == 1) {
 			insertAtFirstPosition(value);
 		}
 		else {
@@ -54,7 +54,7 @@ public class LinkedList {
 			
 			Node n = head;
 			
-			for(int i=0; i<index-1; i++) {
+			for(int i=1; i<index-1; i++) {
 				n = n.next;
 			}
 			node.next = n.next;
@@ -64,13 +64,13 @@ public class LinkedList {
 
 	//It will delete the node from given Index
 	public void deleteAt(int index) {
-		if(index == 0) {
+		if(index == 1) {
 			head = head.next;
 		}
 		else {
 			Node node = head;
 			
-			for (int i=0; i<index-1; i++) {
+			for (int i=1; i<index-1; i++) {
 				node = node.next;
 			}
 			Node n1 = node.next;
